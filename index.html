@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Update: We've Moved!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #61dafb; /* A light, vibrant blue for accents */
+            --text-color: #f4f4f4;    /* Light text */
+            --background-color: #282c34; /* Dark background */
+            --card-background: #3a3f4a; /* Slightly lighter dark for the card */
+            --border-radius: 8px;
+            --shadow: rgba(0, 0, 0, 0.4); /* Darker shadow */
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            background-color: var(--card-background);
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 20px var(--shadow);
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            font-weight: 300;
+        }
+
+        .highlight {
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #a4e4ff; /* Lighter blue on hover for dark theme */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Important Update! We've Moved to a New Home!</h1>
+        <p>
+            Hello there! We're excited to announce that our online presence has
+            officially moved to a new, more secure domain.
+        </p>
+        <p>
+            We've made this switch to ensure a <span class="highlight">safer and more reliable experience for everyone,
+            powered by SSL/TLS encryption!</span>
+        </p>
+        <p>
+            Please update your bookmarks and visit us at our new address:
+        </p>
+        <p>
+            <a href="https://toxichemicals.duckdns.org">
+                <strong>https://toxichemicals.duckdns.org</strong>
+            </a>
+        </p>
+    </div>
+</body>
+</html>
